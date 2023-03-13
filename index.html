@@ -10,19 +10,25 @@
   <body>
     <header>
       <h1>Tic-Tac-Toe</h1>
+      <button class="reset">Reset game</button>
     </header>
     <div class="container">
       <div class="board">
-        <div class="square one"></div>
-        <div class="square two"></div>
-        <div class="square three"></div>
-        <div class="square four"></div>
-        <div class="square five"></div>
-        <div class="square six"></div>
-        <div class="square seven"></div>
-        <div class="square eight"></div>
-        <div class="square nine"></div>
+        <div class="square one" data-number="1"></div>
+        <div class="square two" data-number="2"></div>
+        <div class="square three" data-number="3"></div>
+        <div class="square four" data-number="4"></div>
+        <div class="square five" data-number="5"></div>
+        <div class="square six" data-number="6"></div>
+        <div class="square seven" data-number="7"></div>
+        <div class="square eight" data-number="8"></div>
+        <div class="square nine" data-number="9"></div>
       </div>
+    </div>
+
+    <div class="winning-display hidden">
+      <p class="winner">Player 1 wins</p>
+      <button class="new-game">New Game</button>
     </div>
     <script src="script.js"></script>
   </body>
